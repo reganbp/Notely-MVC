@@ -7,7 +7,7 @@ using NotelyApp.Models;
 
 namespace NotelyApp.Repositories
 {
-    public class NoteRepository
+    public class NoteRepository : INoteRepository
     {
         private readonly List<NoteModel> _notes;
 
