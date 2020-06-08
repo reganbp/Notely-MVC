@@ -8,6 +8,7 @@ namespace NotelyApp.Models
     public class NoteModel
     {
         public Guid Id { get; set; }
+        //[Required(ErrorMessage = "Please enter the subject")]
         public string Subject { get; set; }
         public string Detail { get; set; }
         public DateTime CreatedDate { get; set; }
